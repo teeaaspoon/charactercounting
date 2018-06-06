@@ -22,7 +22,7 @@ function countLetters(string) {
         countLettersObject[string[i]] += 1;
     }
 
-    return countLettersObject;
+    return originalString;
 }
 
 console.log(countLetters("lighthouse in the house"));
